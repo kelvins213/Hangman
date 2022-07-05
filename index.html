@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title> Forca </title>
+    </head>
+
+    <body>
+        <div id="quadro-forca">
+
+
+            <div id="cabo">  </div>
+            <div id="enforcamento"> 
+                <div id="pau">  </div>
+                <div id="espaco-do-boneco"> 
+                    <div id="boneco">
+                        <div id="cabeca">  </div>
+                        <div id="membros-superiores"> 
+                            <div id="braco1"> </div>
+                            <div id="corpo">  </div>
+                            <div id="braco2"> </div>
+                        </div>
+                        <div id="membros-inferiores"> 
+                            <div id="perna1"> </div>
+                            <div id="perna2"> </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="campo-logico"> 
+                    <h2 id="letras-digitas">  </h2>
+                    <p id="progresso-da-palavra">  </p>
+                    <input type="text" id="letra-tentada" maxlength="1"/> 
+                    <input type="submit" id="botao-enviar" onclick="mostrarLetrasTentadas(); conferirSeAcertou();"/> 
+                    <h2 id="mensagem"> </h2>
+                    <h2 id="final"> </h2>
+                </div>
+
+            </div>
+
+        </div>    
+        
+        <script src="./script.js">  </script>
+    </body>
+
+</html>
