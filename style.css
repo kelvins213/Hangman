@@ -1,0 +1,97 @@
+body,#cabeca,#braco1,#braco2,#perna1,#perna2{
+    background-color: darkcyan;
+}
+
+#enforcamento{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+}
+
+#cabo, #pau{
+    background-color: pink;
+}
+
+#cabo{
+    height: 3%;
+    width: 75%;
+}
+
+#pau{
+    height: 100%;
+    width: 5%;
+}
+
+#espaco-do-boneco{
+    width: 40%;
+    position: relative;
+    left: 17%;
+}
+
+#campo-logico{
+    position: relative;
+    left: 23%; top: 15%;
+    width: 30%;
+    height: 60%;
+}
+
+#boneco{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#membros-superiores{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+}
+
+#membros-inferiores{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+}
+
+#cabeca{
+    border-radius: 50%;
+    margin-left: 35%;
+    width: 30%;
+    height: 13%;
+}
+
+#braco1{
+    width: 25%;
+    height: 75%;
+}
+
+#corpo{
+    border-radius: 1% 1% 7% 7%;
+    width: 50%;
+}
+
+#braco1, #braco2{
+    border-radius: 10% 10% 45% 45%;
+}
+
+#braco2{
+    width: 25%;
+    height: 75%;
+}
+
+#perna1, #perna2{
+    border-radius: 15%;
+  }
+
+#perna1{
+    width: 20%;
+    margin-left: 25%;
+}
+
+#perna2{
+    width: 20%;
+    margin-left: 10%;
+}
